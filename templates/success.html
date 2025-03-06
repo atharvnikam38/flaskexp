@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="success-message">
+        <h1>Thank You!</h1>
+        <p>Your message has been successfully submitted.</p>
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Email:</strong> {{ email }}</p>
+        <p><strong>Subject:</strong> {{ subject }}</p>
+        <p><strong>Message:</strong> {{ message }}</p>
+    </div>
+{% endblock %}
