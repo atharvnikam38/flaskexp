@@ -14,19 +14,19 @@ def portfolio():
         {
             "title": "Weather App",
             "description": "Developed a weather application using Flutter, integrating API functionality to provide real-time weather updates for any location.",
-            "image": "weather_app.png",
-            "link": "https://weather-app.example.com"
+            "image": "weather.png",
+            "link": "https://weatherappatharv38.netlify.app/"
         },
         {
             "title": "Trainer Website",
             "description": "Designed and developed a WordPress-based website for a professional trainer. Customized themes and plugins to create a responsive and visually appealing user interface.",
-            "image": "trainer_website.png",
+            "image": "fitness.png",
             "link": "https://atharvnikam1.rf.gd"
         },
         {
             "title": "Myntra Clone",
             "description": "Developed a clone of the Myntra website to simulate an e-commerce platform. Utilized HTML, CSS, and JavaScript to create a responsive and visually appealing user interface.",
-            "image": "myntra_clone.png",
+            "image": "myntra.png",
             "link": "https://github.com/atharvnikam38/MyntraClone"
         }
     ]

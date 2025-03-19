@@ -4,9 +4,10 @@
     <h1>My Projects</h1>
     <div class="projects">
         {% for project in projects %}
-            <div class="project">
+            <div class="project"><center>
                 <h2>{{ project.title }}</h2>
-                <img src="{{ url_for('static', filename='images/' + project.image) }}" alt="{{ project.title }}">
+                <img src="{{ url_for('static', filename='images/' + project.image) }}" alt="{{ project.title }}"> </center>
+                
                 <p>{{ project.description }}</p>
                 <a href="{{ project.link }}" target="_blank">View Project</a>
             </div>

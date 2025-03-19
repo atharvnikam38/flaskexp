@@ -9,8 +9,9 @@
     <p class="description">Crafting sleek and responsive web experiences that blend creativity with functionality. Let's
       build something amazing together.</p>
     <div class="buttons">
-      <a href="#" class="btn hire-me">HIRE ME</a>
-      <a href="#" class="btn get-cv">GET CV</a>
+      <a href="{{ url_for('contact') }}" class="btn hire-me">HIRE ME</a>
+      <a href="{{ url_for('static', filename='cv/Atharv Resume final.pdf') }}" class="btn get-cv" download>GET CV</a>
+
     </div>
   </div>
   <div class="hero-image">
